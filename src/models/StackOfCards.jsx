@@ -10,7 +10,8 @@ import persona4 from '../assets/img/persona4.jpg';
 import Card from './Card';
 
 //Style
-import '../styles/stackOfCards.css'
+import '../styles/stackOfCards.css';
+import '../styles/pageText.css';
 
 const StackOfCards = () => {
 
@@ -38,6 +39,7 @@ const elementList = [
 
     return (
         <div className='card-container'>
+            <h2>Is "the choosen one"?</h2>
             {
                 topCard ? (
                     <>
