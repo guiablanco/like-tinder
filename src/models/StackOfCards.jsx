@@ -39,7 +39,7 @@ const elementList = [
 
     return (
         <div className='card-container'>
-            <h2>Is "the choosen one"?</h2>
+            <h2>Is &quot;the choosen one&quot;?</h2>
             {
                 topCard ? (
                     <>
